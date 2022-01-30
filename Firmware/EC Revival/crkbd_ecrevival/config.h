@@ -31,6 +31,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 7
 
+/* EC switch threshold with hysteresis */
+#define HIGH_THRESHOLD 65
+#define LOW_THRESHOLD 50
 /*
  * Keyboard Matrix Assignments
  *
@@ -41,9 +44,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
+#define POWER_PIN B4
+#define APLEX_EN_PIN E6
+#define OPA_SHDN_PIN F4
+#define DISCHARGE_PIN B1
+#define ANALOG_PORT F6
+
+#define MATRIX_ROW_PINS { D4, C6, D7 }
+#define MATRIX_COL_CHANNELS { 6, 4, 3, 0, 1, 2, 5 }
+#define MUX_SEL_PINS { B3, B2, B6 }
+
+#define UNUSED_PINS
+/*
 #define MATRIX_ROW_PINS { 0 } // Use custom matrix.c
 #define MATRIX_COL_PINS { 0 } // Use custom matrix.c
 #define UNUSED_PINS
+*/
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW

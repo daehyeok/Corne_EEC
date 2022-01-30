@@ -14,14 +14,25 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "crkbd_ecrevival.h"
+//
+// Scan EC switch matrix using 74HC7051
+// Define MUX_SEL_PINS, DISCHARGE_PIN, and ANALOG_PORT to compile
+//
 
-void keyboard_post_init_kb() {
-    keyboard_post_init_user();
-    //debug_enable = true;
-    //debug_matrix = true;
-}
+#pragma once
 
-void keyboard_pre_init_kb(void) {
-    keyboard_pre_init_user();
-}
+#include <stdint.h>
+#include <stdbool.h>
+
+#include "matrix.h"
+
+typedef struct {
+    uint16_t low_threshold;   // threshold for key release
+    uint16_t high_threshold;  // threshold for key press
+} ecsm_config_t;
+
+int      ecsm_init(ecsm_config_t const* const ecsm_config);
+bool     ecsm_matrix_scan(matrix_row_t current_matrix[]);
+void     ecsm_print_matrix(void);
+uint16_t ecsm_readkey_raw(uint8_t row, uint8_t col);
+bool     ecsm_update_key(matrix_row_t* current_row, uint8_t col, uint16_t sw_value);

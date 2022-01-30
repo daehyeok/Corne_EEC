@@ -5,7 +5,7 @@ MCU = atmega32u4
 BOOTLOADER = caterina
 
 CUSTOM_MATRIX = lite
-SRC += analog.c matrix.c
+SRC += analog.c matrix.c ec_switch_matrix.c
 SPLIT_KEYBOARD = yes
 
 # Build Options
