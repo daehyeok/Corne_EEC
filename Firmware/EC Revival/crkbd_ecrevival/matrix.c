@@ -31,7 +31,7 @@
 #    define HIGH_THRESHOLD 300
 #endif
 
-#define ERROR_DISCONNECT_COUNT 5
+#define ERROR_DISCONNECT_COUNT 20
 
 #define ROWS_PER_HAND (MATRIX_ROWS / 2)
 

@@ -103,15 +103,7 @@ int ecsm_init(ecsm_config_t const* const ecsm_config) {
 uint16_t ecsm_readkey_raw(uint8_t row, uint8_t col) {
     uint16_t sw_value = 0;
 
-    writePinHigh(APLEX_EN_PIN);
-
-    select_mux(col);
-
-    writePinLow(APLEX_EN_PIN);
-    wait_us(30);
-
     discharge_capacitor();
-    wait_us(1);
 
     clear_all_row_pins();
 
@@ -150,8 +142,13 @@ bool ecsm_matrix_scan(matrix_row_t current_matrix[]) {
     bool updated = false;
 
     for (int col = 0; col < sizeof(col_channels); col++) {
+        writePinHigh(APLEX_EN_PIN);
+
+        select_mux(col);
+
+        writePinLow(APLEX_EN_PIN);
+
         for (int row = 0; row < sizeof(row_pins); row++) {
-            discharge_capacitor();
             ecsm_sw_value[row][col] = ecsm_readkey_raw(row, col);
             updated |= ecsm_update_key(&current_matrix[row], col, ecsm_sw_value[row][col]);
         }
