@@ -19,6 +19,7 @@
 #include "quantum.h"
 #include "analog.h"
 #include "print.h"
+#include "split_util.h"
 
 // pin connections
 const uint8_t row_pins[]     = MATRIX_ROW_PINS;
@@ -68,6 +69,14 @@ int ecsm_init(ecsm_config_t const* const ecsm_config) {
     // save config
     config = *ecsm_config;
 
+    split_pre_init();
+
+    // initialize drive lines
+    init_row();
+
+    // initialize multiplexer select pin
+    init_mux_sel();
+
     // Turn on extern circuit
     setPinOutput(POWER_PIN);
     writePinHigh(POWER_PIN);
@@ -87,14 +96,7 @@ int ecsm_init(ecsm_config_t const* const ecsm_config) {
     // set analog reference
     analogReference(ADC_REF_POWER);
 
-    // initialize drive lines
-    init_row();
-
-    // initialize multiplexer select pin
-    init_mux_sel();
-
-    // set discharge pin to charge mode
-    //setPinInput(DISCHARGE_PIN);
+    split_post_init();
 
     return 0;
 }
@@ -105,11 +107,14 @@ uint16_t ecsm_readkey_raw(uint8_t row, uint8_t col) {
 
     discharge_capacitor();
 
+    wait_ms(0.001);
+
     clear_all_row_pins();
 
     cli();
 
     charge_capacitor(row);
+    wait_ms(0.004);
 
     sw_value = analogReadPin(ANALOG_PORT);
 
@@ -142,17 +147,24 @@ bool ecsm_matrix_scan(matrix_row_t current_matrix[]) {
     bool updated = false;
 
     for (int col = 0; col < sizeof(col_channels); col++) {
+
+        discharge_capacitor();
+
         writePinHigh(APLEX_EN_PIN);
 
         select_mux(col);
 
         writePinLow(APLEX_EN_PIN);
 
+        wait_ms(0.03);
+
         for (int row = 0; row < sizeof(row_pins); row++) {
             ecsm_sw_value[row][col] = ecsm_readkey_raw(row, col);
             updated |= ecsm_update_key(&current_matrix[row], col, ecsm_sw_value[row][col]);
         }
     }
+
+    discharge_capacitor();
 
     return updated;
 }
