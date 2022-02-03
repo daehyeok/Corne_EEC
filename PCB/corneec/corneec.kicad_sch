@@ -3793,7 +3793,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061d28452)
     (property "Reference" "R10" (id 0) (at 167.64 148.4122 90))
-    (property "Value" "22k" (id 1) (at 167.64 150.7236 90))
+    (property "Value" "22k : 100k" (id 1) (at 167.64 150.7236 90))
     (property "Footprint" "cipulot_parts:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 167.64 155.448 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4621,7 +4621,7 @@
       (reference "R9") (unit 1) (value "1k") (footprint "cipulot_parts:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061d28452"
-      (reference "R10") (unit 1) (value "22k") (footprint "cipulot_parts:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R10") (unit 1) (value "22k : 100k") (footprint "cipulot_parts:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/add742ad-d41a-4d30-bf31-04e5bebdc9d3"
       (reference "R11") (unit 1) (value "R") (footprint "cipulot_parts:R_0603")

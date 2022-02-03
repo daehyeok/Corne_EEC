@@ -160,7 +160,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3dmodels/plate.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
