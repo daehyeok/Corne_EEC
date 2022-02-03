@@ -15,6 +15,10 @@
  */
 #include QMK_KEYBOARD_H
 
+#include "math.h"
+static double vector_length;
+static double angle_rad;
+
 #define _QWERTY 0
 #define _LOWER 1
 #define _RAISE 2
@@ -26,11 +30,8 @@ enum custom_keycodes {
   RAISE,
   ADJUST,
   BACKLIT,
+  DRAG_SCROLL,
   RGBRST
-};
-
-enum macro_keycodes {
-  KC_SAMPLEMACRO,
 };
 
 #define LOWER MO(_LOWER)
@@ -46,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_RSFT,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,  RAISE,  KC_RALT \
+                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,  RAISE,  DRAG_SCROLL \
                                       //`--------------------------'  `--------------------------'
 
   ),
@@ -59,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,   RAISE, KC_RALT \
+                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,   RAISE, DRAG_SCROLL \
                                       //`--------------------------'  `--------------------------'
     ),
 
@@ -71,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, KC_BSLS, KC_TILD,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,   RAISE, KC_RALT \
+                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,   RAISE, DRAG_SCROLL \
                                       //`--------------------------'  `--------------------------'
   ),
 
@@ -83,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,   RAISE, KC_RALT \
+                                          KC_LGUI,   LOWER,  KC_SPC,     KC_ENT,   RAISE, DRAG_SCROLL \
                                       //`--------------------------'  `--------------------------'
   )
 };
@@ -92,26 +93,34 @@ layer_state_t layer_state_set_user(layer_state_t state) {
   return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
 }
 
+bool set_scrolling = false;
+
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-        default:
-            break;
+    if (keycode == DRAG_SCROLL && record->event.pressed) {
+        set_scrolling = !set_scrolling;
     }
     return true;
 }
 
 uint8_t white = 0;
 uint8_t red = 255;
-uint8_t green = 0;
-uint8_t blue = 0;
+uint8_t green = 1;
+uint8_t blue = 200;
 
-bool set_scrolling = false;
+void keyboard_post_init_user(void) {
+    pimoroni_trackball_set_rgbw(red, green, blue, white);
+}
 report_mouse_t pointing_device_task_user(report_mouse_t mouse_report) {
     if (set_scrolling) {
         mouse_report.h = mouse_report.x;
         mouse_report.v = mouse_report.y;
-        mouse_report.x = mouse_report.y = 0; 
+        mouse_report.x = mouse_report.y = 0;
     }
+    angle_rad = atan2(mouse_report.y, mouse_report.x);
+    vector_length = sqrt(pow(mouse_report.x, 2) + pow(mouse_report.y, 2));
+    mouse_report.x = (int16_t)(vector_length * cos(angle_rad));
+    mouse_report.y = (int16_t)(vector_length * sin(angle_rad));
+
     return mouse_report;
 }
 
