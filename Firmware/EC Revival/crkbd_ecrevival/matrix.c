@@ -71,7 +71,7 @@ bool matrix_scan_custom(matrix_row_t current_matrix[]) {
     return updated;
 }
 
-bool matrix_post_scan(void) {
+bool matrix_after_scan(void) {
     bool changed = false;
     if (is_keyboard_master()) {
         static uint8_t error_count;
