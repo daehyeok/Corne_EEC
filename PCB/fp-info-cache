@@ -1,4 +1,4 @@
-20715010251810229
+20724898179222444
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84728,6 +84728,27 @@ ATMEGA32U4-AU
 44
 44
 cipulot_parts
+Amphenol_10051922-1210ELF
+
+
+0
+14
+13
+cipulot_parts
+Amphenol_10051922-1610ELF
+
+
+0
+18
+17
+cipulot_parts
+Amphenol_10051922-1810ELF
+
+
+0
+20
+19
+cipulot_parts
 ArduinoProMicro
 
 
@@ -87647,6 +87668,13 @@ LED 3227
 4
 4
 cipulot_parts
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+cipulot_parts
 R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
@@ -88228,6 +88256,13 @@ Wurth-632723300011-MaximumExtensionMount
 32
 27
 cipulot_parts
+YAAJ_WeAct_BlackPill_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+cipulot_parts
 ace6.5
 
 
@@ -88274,7 +88309,7 @@ ecs_pad
  StepUp generated footprint
 
 0
-3
+4
 3
 cipulot_parts
 ecs_pad_4port
@@ -88283,6 +88318,13 @@ ecs_pad_4port
 0
 5
 3
+cipulot_parts
+mouse-bite-1mm-slot
+
+
+0
+0
+0
 cipulot_parts
 qmk_logo
 
