@@ -39,3 +39,8 @@ The firmware folder contains 2 versions of the code based on different QMK relea
 * `Original ECWL` based on gonnoc's fork, running on an older QMK branch
 
 Both have precompiled `*.hex` files based on the code in their respective folders to easily get the board up and running.
+
+## Copyright notice
+
+This project is released under the MIT License. For the license, please refer to the LICENCE.md file.
+
