@@ -366,7 +366,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "3dmodels/corneec.step",
+      "step": "3dmodels/ECWL compatible mounting points/corneec.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -7478,10 +7478,10 @@
       (net 9 "COL5") (pinfunction "A2") (pintype "passive") (tstamp 1b80aaa4-9cfe-448e-8ff1-d2c69f706b2e))
     (pad "16" smd rect locked (at -2.2733 2.97434 90) (size 0.4191 1.778) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 34 "VCC") (pinfunction "VCC") (pintype "power_in") (tstamp 3eb6166e-d2a4-4778-a9e3-fd9ea19f972e))
-    (model "Housing_SSOP/TSSOP-16.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16-1EP_4.4x5mm_P0.65mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 0 -90))
     )
   )
 

@@ -160,7 +160,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "corneec_right.step",
+      "step": "3dmodels/ECWL compatible mounting points/corneec_right.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
