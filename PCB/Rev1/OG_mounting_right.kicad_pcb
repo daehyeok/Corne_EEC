@@ -1005,7 +1005,7 @@
     (property "Sheetfile" "corneec.kicad_sch")
     (property "Sheetname" "")
     (attr smd)
-    (fp_text reference "SWe" (at -6 -8) (layer "F.SilkS") hide
+    (fp_text reference "SW9" (at -6 -8) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp 3af12871-582c-4ff1-a1fb-95b41f040c7f)
     )
@@ -3479,7 +3479,7 @@
     (property "Sheetfile" "corneec.kicad_sch")
     (property "Sheetname" "")
     (attr smd)
-    (fp_text reference "SWe" (at -6 -8) (layer "F.SilkS") hide
+    (fp_text reference "SW7" (at -6 -8) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp 93b7b12a-498c-4ae2-a4a4-ab1a98692fd3)
     )
