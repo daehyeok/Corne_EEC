@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "corneec")(type "KiCad")(uri "C:/Users/cipul/Desktop/Projects/Boards/PCB/CorneEC/corneec")(options "")(descr ""))
+  (version 7)
+  (lib (name "ec_parts")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_asset/ec_parts.pretty")(options "")(descr ""))
 )
