@@ -1,0 +1,58 @@
+(footprint "P1.3mm_Bridged_RoundedPad1.0x1.5mm" (version 20221018) (generator pcbnew)
+  locked (layer "F.Cu")
+  (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
+  (tags "net tie solder jumper bridged")
+  (property "Sheetfile" "keyboard_left.kicad_sch")
+  (property "Sheetname" "")
+  (property "ki_description" "Solder Jumper, 2-pole, closed/bridged")
+  (property "ki_keywords" "solder jumper SPST")
+  (attr exclude_from_pos_files)
+  (net_tie_pad_groups "1, 2")
+  (fp_text reference "JP1" (at 0 -1.8 -180) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9c87fa0c-9b2d-4cbf-8ebe-1bc2abab5b8f)
+  )
+  (fp_text value "SolderJumper_2_Bridged" (at 0 1.9 -180) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 126c9d22-68e7-4122-8296-d710fd7c514b)
+  )
+  (fp_poly
+    (pts
+      (xy 0.25 -0.3)
+      (xy -0.25 -0.3)
+      (xy -0.25 0.3)
+      (xy 0.25 0.3)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp f180e707-cea6-47cc-b258-b86234a801a5))
+  (pad "1" smd custom locked (at -0.65 0) (size 1 0.5) (layers "F.Cu")
+    (zone_connect 2) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0) (fill yes))
+      (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0) (fill yes))
+      (gr_poly
+        (pts
+          (xy 0.5 0.75)
+          (xy 0 0.75)
+          (xy 0 -0.75)
+          (xy 0.5 -0.75)
+        )
+        (width 0) (fill yes))
+    ) (tstamp bb638f57-c260-4d6c-9b26-4a19ba95f961))
+  (pad "2" smd custom locked (at 0.65 0) (size 1 0.5) (layers "F.Cu")
+    (zone_connect 2) (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_circle (center 0 0.25) (end 0.5 0.25) (width 0) (fill yes))
+      (gr_circle (center 0 -0.25) (end 0.5 -0.25) (width 0) (fill yes))
+      (gr_poly
+        (pts
+          (xy 0 0.75)
+          (xy -0.5 0.75)
+          (xy -0.5 -0.75)
+          (xy 0 -0.75)
+        )
+        (width 0) (fill yes))
+    ) (tstamp b0bb6091-c6df-4deb-a634-354eb7821333))
+)
