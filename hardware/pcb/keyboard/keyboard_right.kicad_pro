@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.6,
-          "height": 4.2,
-          "width": 4.2
+          "drill": 0.5,
+          "height": 1.2,
+          "width": 1.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -75,7 +75,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_type_mismatch": "error",
-        "hole_clearance": "error",
+        "hole_clearance": "warning",
         "hole_near_hole": "error",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -428,8 +428,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
@@ -492,46 +492,12 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "RP2040_digital",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
-        "via_diameter": 0.7,
-        "via_drill": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.6,
         "wire_width": 6
       }
     ],
@@ -558,11 +524,11 @@
         "pattern": "VSYS"
       },
       {
-        "netclass": "USB",
+        "netclass": "Default",
         "pattern": "DM"
       },
       {
-        "netclass": "USB",
+        "netclass": "Default",
         "pattern": "DP"
       },
       {
@@ -582,8 +548,12 @@
         "pattern": "CHARGE_RST"
       },
       {
-        "netclass": "RP2040_digital",
+        "netclass": "Default",
         "pattern": "CSEL*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ACC*"
       }
     ]
   },
@@ -645,15 +615,7 @@
   "sheets": [
     [
       "ac97752b-a16f-44ee-ad7e-0bcdbcea7979",
-      "key_matrix"
-    ],
-    [
-      "30debd9a-9dac-4f68-be0e-8ff0b7009c07",
-      "analog"
-    ],
-    [
-      "d0852f3b-beb7-4ab7-9ed9-f1fd54359fca",
-      "usb_power"
+      "analog&key matrix"
     ],
     [
       "852dabbf-de45-4470-8176-59d37a754407",

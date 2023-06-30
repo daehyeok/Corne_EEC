@@ -395,7 +395,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -628,15 +628,7 @@
   "sheets": [
     [
       "ac97752b-a16f-44ee-ad7e-0bcdbcea7979",
-      "key_matrix"
-    ],
-    [
-      "30debd9a-9dac-4f68-be0e-8ff0b7009c07",
-      "analog"
-    ],
-    [
-      "d0852f3b-beb7-4ab7-9ed9-f1fd54359fca",
-      "usb_power"
+      "analog&key matrix"
     ],
     [
       "852dabbf-de45-4470-8176-59d37a754407",
