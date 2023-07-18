@@ -5,7 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "2023-07-07")
+    (title "Corne EEC - Keyboard Right")
+    (date "2023-07-18")
     (rev "1.0")
     (comment 2 "MIT License")
   )
@@ -3280,6 +3281,11 @@
     (at 175.26 162.56 0)
     (effects (font (face "Hack Nerd Font") (size 1.5 1.5)) (justify left bottom))
     (uuid 9b938670-123a-46c5-8918-5ffa71741ee8)
+  )
+  (text "VBUS_DEC=(R5*5v)/(R4+R5)=(5.6*5)/(10+5.6)=1.7949v\nMake sure vbus dection pin's voltage is 1.7 ~ 3.3v"
+    (at 57.15 99.06 0)
+    (effects (font (face "Hack Nerd Font") (size 1.27 1.27)) (justify left bottom))
+    (uuid e4dd3dc3-9388-46cd-85f9-4f52135d923d)
   )
   (text "2.54mm pitch test points" (at 143.51 175.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

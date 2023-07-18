@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "Corne EEC")
-    (date "2023-06-22")
+    (date "2023-07-18")
     (rev "1.0")
     (comment 1 "Copyright © 2023")
     (comment 2 "MIT License")
@@ -353,7 +353,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41afa7f2-7e24-4932-9d50-d4f236a6a6b5)
     )
-    (fp_text value "100 R_Array_Convex_4x1206" (at 0 2.6) (layer "F.Fab") hide
+    (fp_text value "100 R_Array_Convex_4x0603" (at 0 2.6) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6df2016a-510e-4c8c-bf84-e6e3fe21f90e)
     )
@@ -435,7 +435,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5543f17d-c29c-4130-8e1c-446f14a00f40)
     )
-    (fp_text value "NX3215SA" (at 0 2 90) (layer "F.Fab") hide
+    (fp_text value "32.768kHz " (at 0 2 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d5d09b50-558b-4907-84f9-f50058af9ee5)
     )
@@ -2861,7 +2861,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 237f5b76-a904-4d1c-897a-feb8771973f4)
     )
-    (fp_text value "5.6p" (at 0 1.43 90) (layer "F.Fab") hide
+    (fp_text value "22p" (at 0 1.43 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e97ffb6-6f15-4e93-867f-3531fd9bc3d8)
     )
@@ -6702,7 +6702,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 45e6fdf2-8aaa-4be7-89ab-955c1af4a3b7)
     )
-    (fp_text value "5.6p" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "22p" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5964ab4d-8c7f-4031-8d9b-02d4def5d401)
     )

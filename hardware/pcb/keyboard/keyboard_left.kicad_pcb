@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "Corne EEC")
-    (date "2023-06-22")
+    (date "2023-07-18")
     (rev "1.0")
     (comment 1 "Copyright © 2023")
     (comment 2 "MIT License")
@@ -2861,7 +2861,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc655653-f438-4316-b2d8-e1932da2d091)
     )
-    (fp_text value "5.6p" (at 0 1.43 90) (layer "F.Fab") hide
+    (fp_text value "22p" (at 0 1.43 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1ceb1cb5-1393-454e-aede-ec231f41fdfd)
     )
@@ -6702,7 +6702,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 030733df-4f90-4dba-9de4-986b3769828a)
     )
-    (fp_text value "5.6p" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "22p" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bdd553d0-3ad9-4d75-aba4-292c2c560176)
     )
@@ -8359,7 +8359,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1a0e4aab-accd-4640-b85f-d4e6ea5098e6)
     )
-    (fp_text value "10k" (at 0 1.43 90) (layer "F.Fab") hide
+    (fp_text value "< 800" (at 0 1.43 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 763e262b-6ed1-43d8-8d8a-dd9c7e6001b4)
     )
@@ -9744,7 +9744,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 35664707-7a4e-4426-9b30-1911ab5a0045)
     )
-    (fp_text value "5.6k" (at 0 1.43 90) (layer "F.Fab") hide
+    (fp_text value "1k" (at 0 1.43 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d6a65ffd-d843-48fb-95fe-affcd73a0fea)
     )
@@ -12694,7 +12694,7 @@
     (property "Sheetname" "")
     (property "ki_description" "Resistor")
     (property "ki_keywords" "R res resistor")
-    (path "/b432f239-78fd-4c00-93be-11e960d2c67b")
+    (path "/09850821-9c3b-411e-8bbc-f7018145b0f2")
     (attr smd)
     (fp_text reference "R1" (at 0 -1.5 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))

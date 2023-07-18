@@ -5,7 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "2022-12-24")
+    (title "Key Matrix")
+    (date "2023-07-18")
     (rev "1.0")
     (comment 2 "MIT License")
   )
