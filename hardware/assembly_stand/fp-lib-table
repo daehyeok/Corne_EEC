@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ec_parts")(type "KiCad")(uri "${KIPRJMOD}/../kicad_asset/ec_parts.pretty")(options "")(descr ""))
+)
