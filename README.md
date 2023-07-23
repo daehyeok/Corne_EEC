@@ -1,12 +1,15 @@
 # Corne EEC (Corne Extended Electrostatic Capacitive)
  Corne based EC keyboard with number row and one additional thumb key.
  
- **I'm not electrical engineer. Use this project at your own risk.**
- 
+ **I'm not electrical engineer. PCB design might not be optimized and buggy. Use this project at your own risk.**
+
+![rendering.png](img/rendering.png)
+
 ## Features
 * Corne like design, but have number row and 4 thumb keys. Total 28 keys on each halves.
 * Onboard STM32G0B1KET MCU, USB-C with ESD protection
 * No 0402-sized or smaller SMD(Except optional SOD-323 sized ESD chip, It's stil not diffcult to hand soldering).
+* Alomost no through Hole parts.
 * Extra PCB can be connected through 1x10 FFC connector(0.5mm pitch. 8 GPIO with 3.3v power line). I will add encoder and LCD display later.
 
 ## Firmware (WIP)
