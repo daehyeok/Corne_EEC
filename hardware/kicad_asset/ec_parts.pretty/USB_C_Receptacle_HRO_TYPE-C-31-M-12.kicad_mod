@@ -74,9 +74,9 @@
       )
     )
   )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/../../kicad_asset/ec_parts.3dshapes/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
+    (offset (xyz 0 -1.2 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

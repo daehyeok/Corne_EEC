@@ -235,4 +235,9 @@
   (pad "10" smd rect (at -2.25 -1.15) (size 0.3 0.8) (layers "F.Cu") (tstamp ab79245f-8839-415d-8beb-6129052e7d38))
   (pad "MP" smd rect (at -3.25 1.35) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 079f7bc2-40a4-48ee-8bd1-cc61e70917a8))
   (pad "MP" smd rect (at 3.25 1.35) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 605a2951-d936-488b-8287-22ae8d36ab23))
+  (model "/Users/daehyeok/workspace/Corne_EEC/hardware/kicad_asset/ec_parts.3dshapes/TF12SD-10S-0.5SH(800)_CL0480-0510-0-00_3DDrawing_STEP_TF12SD-10S-0.5SH_3D_STP.stp"
+    (offset (xyz -9.3 -3 2.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 180 0 180))
+  )
 )
