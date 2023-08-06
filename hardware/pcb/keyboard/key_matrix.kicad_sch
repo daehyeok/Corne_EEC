@@ -2013,7 +2013,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -2041,7 +2041,7 @@
     )
     (pin "1" (uuid fe212a15-e08b-4175-9888-7a28abf48d08))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -2076,7 +2076,7 @@
           (reference "G22") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G22") (unit 1)
         )
@@ -2093,7 +2093,7 @@
     (property "Value" "1k" (at 116.84 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad0.98x0.95mm" (at 118.872 152.4 90)
+    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric" (at 118.872 152.4 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 120.65 152.4 0)
@@ -2113,7 +2113,7 @@
           (reference "R9") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "R?") (unit 1)
         )
@@ -2148,7 +2148,7 @@
           (reference "G18") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G18") (unit 1)
         )
@@ -2183,7 +2183,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -2211,7 +2211,7 @@
     )
     (pin "1" (uuid b59f22bb-7ab4-408a-a8ba-68f9126cf39d))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -2246,7 +2246,7 @@
           (reference "G7") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G7") (unit 1)
         )
@@ -2281,7 +2281,7 @@
           (reference "SW7") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW7") (unit 1)
         )
@@ -2313,7 +2313,7 @@
           (reference "G2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G2") (unit 1)
         )
@@ -2338,7 +2338,7 @@
     )
     (pin "1" (uuid ae1043bc-160b-406f-aa25-b6ae08a99537))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -2376,7 +2376,7 @@
           (reference "SW15") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW15") (unit 1)
         )
@@ -2411,7 +2411,7 @@
     (pin "7" (uuid e9170e38-a991-4a05-8d25-ad7ca306e70f))
     (pin "8" (uuid 870f2876-90f1-4a7d-b38c-b81f0307a592))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "RN?") (unit 1)
         )
@@ -2449,7 +2449,7 @@
           (reference "SW22") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW22") (unit 1)
         )
@@ -2474,7 +2474,7 @@
     )
     (pin "1" (uuid edec55d2-7613-412f-a0c3-cc3d4f0198e3))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -2512,7 +2512,7 @@
           (reference "SW14") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW14") (unit 1)
         )
@@ -2544,7 +2544,7 @@
           (reference "H1") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -2579,7 +2579,7 @@
           (reference "G10") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G10") (unit 1)
         )
@@ -2611,7 +2611,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -2649,7 +2649,7 @@
           (reference "SW21") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW21") (unit 1)
         )
@@ -2681,7 +2681,7 @@
           (reference "G4") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G4") (unit 1)
         )
@@ -2713,7 +2713,7 @@
           (reference "G5") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G5") (unit 1)
         )
@@ -2748,7 +2748,7 @@
           (reference "SW19") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW19") (unit 1)
         )
@@ -2780,7 +2780,7 @@
           (reference "G15") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G15") (unit 1)
         )
@@ -2812,7 +2812,7 @@
           (reference "G25") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G25") (unit 1)
         )
@@ -2844,7 +2844,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -2879,7 +2879,7 @@
           (reference "G20") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G20") (unit 1)
         )
@@ -2911,7 +2911,7 @@
           (reference "G6") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G6") (unit 1)
         )
@@ -2928,7 +2928,7 @@
     (property "Value" "0.1uF" (at 144.78 155.2194 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm" (at 140.97 150.1648 0)
+    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric" (at 140.97 150.1648 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 151.13 0)
@@ -2948,7 +2948,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "C?") (unit 1)
         )
@@ -2986,7 +2986,7 @@
           (reference "SW24") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW24") (unit 1)
         )
@@ -3037,7 +3037,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "U?") (unit 1)
         )
@@ -3072,7 +3072,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -3110,7 +3110,7 @@
     (pin "7" (uuid 0ce6143b-1ab0-40ff-a508-9c558b78b2fa))
     (pin "8" (uuid 9cfa1a47-3f50-45b6-bb83-313ddf690ebb))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "RN?") (unit 1)
         )
@@ -3148,7 +3148,7 @@
           (reference "SW18") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW18") (unit 1)
         )
@@ -3180,7 +3180,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -3208,7 +3208,7 @@
     )
     (pin "1" (uuid 276d1a72-8526-4cb3-aa3b-24d1e1ed9024))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -3243,7 +3243,7 @@
           (reference "G3") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G3") (unit 1)
         )
@@ -3275,7 +3275,7 @@
           (reference "G17") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G17") (unit 1)
         )
@@ -3307,7 +3307,7 @@
           (reference "G26") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G26") (unit 1)
         )
@@ -3339,7 +3339,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -3377,7 +3377,7 @@
           (reference "SW6") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW6") (unit 1)
         )
@@ -3409,7 +3409,7 @@
           (reference "G24") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G24") (unit 1)
         )
@@ -3441,7 +3441,7 @@
           (reference "G14") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G14") (unit 1)
         )
@@ -3466,7 +3466,7 @@
     )
     (pin "1" (uuid 4669b646-5ff0-4f0e-92a4-4053a433ffee))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -3494,7 +3494,7 @@
     )
     (pin "1" (uuid 93b587e9-53dc-4403-820c-177b5732c8c2))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -3529,7 +3529,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -3567,7 +3567,7 @@
           (reference "SW10") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW10") (unit 1)
         )
@@ -3599,7 +3599,7 @@
           (reference "G9") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G9") (unit 1)
         )
@@ -3624,7 +3624,7 @@
     )
     (pin "1" (uuid 4d71b319-6e3b-4579-ae48-ea0e12012782))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "#PWR02") (unit 1)
         )
@@ -3660,7 +3660,7 @@
           (reference "H1") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -3695,7 +3695,7 @@
           (reference "G23") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G23") (unit 1)
         )
@@ -3712,7 +3712,7 @@
     (property "Value" "100k" (at 124.46 148.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad0.98x0.95mm" (at 127 144.272 90)
+    (property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric" (at 127 144.272 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 146.05 0)
@@ -3732,7 +3732,7 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "R?") (unit 1)
         )
@@ -3767,7 +3767,7 @@
           (reference "G16") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G16") (unit 1)
         )
@@ -3799,7 +3799,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -3837,7 +3837,7 @@
           (reference "SW25") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW25") (unit 1)
         )
@@ -3872,7 +3872,7 @@
     (pin "7" (uuid 46f6e547-229c-46e9-bf00-89bae4c54a9e))
     (pin "8" (uuid bc5376de-bea0-4364-b81f-8f2bd2a0681b))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "U2") (unit 1)
         )
@@ -3907,7 +3907,7 @@
           (reference "SW3") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW3") (unit 1)
         )
@@ -3939,7 +3939,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -3977,7 +3977,7 @@
           (reference "SW17") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW17") (unit 1)
         )
@@ -4012,7 +4012,7 @@
           (reference "SW20") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW28") (unit 1)
         )
@@ -4044,7 +4044,7 @@
           (reference "G21") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G21") (unit 1)
         )
@@ -4079,7 +4079,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -4117,7 +4117,7 @@
           (reference "SW12") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW12") (unit 1)
         )
@@ -4152,7 +4152,7 @@
           (reference "SW8") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW8") (unit 1)
         )
@@ -4187,7 +4187,7 @@
           (reference "SW27") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW27") (unit 1)
         )
@@ -4219,7 +4219,7 @@
           (reference "G12") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G12") (unit 1)
         )
@@ -4251,7 +4251,7 @@
           (reference "G19") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G19") (unit 1)
         )
@@ -4286,7 +4286,7 @@
           (reference "SW23") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW23") (unit 1)
         )
@@ -4303,7 +4303,7 @@
     (property "Value" "0.1uF" (at 78.74 119.1006 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm" (at 74.93 124.1552 0)
+    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric" (at 74.93 124.1552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 78.74 123.19 0)
@@ -4323,7 +4323,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "C?") (unit 1)
         )
@@ -4361,7 +4361,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -4399,7 +4399,7 @@
           (reference "SW16") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW16") (unit 1)
         )
@@ -4431,7 +4431,7 @@
           (reference "G13") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G13") (unit 1)
         )
@@ -4456,7 +4456,7 @@
     )
     (pin "1" (uuid accfc3e9-173b-4971-a27a-2026a21b1e0e))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -4494,7 +4494,7 @@
           (reference "SW1") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW1") (unit 1)
         )
@@ -4526,7 +4526,7 @@
           (reference "G11") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G11") (unit 1)
         )
@@ -4558,7 +4558,7 @@
           (reference "G27") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G27") (unit 1)
         )
@@ -4593,7 +4593,7 @@
           (reference "SW9") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW9") (unit 1)
         )
@@ -4628,7 +4628,7 @@
           (reference "SW20") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW20") (unit 1)
         )
@@ -4663,7 +4663,7 @@
           (reference "SW13") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW13") (unit 1)
         )
@@ -4698,7 +4698,7 @@
           (reference "SW2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW2") (unit 1)
         )
@@ -4730,7 +4730,7 @@
           (reference "G1") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G1") (unit 1)
         )
@@ -4755,7 +4755,7 @@
     )
     (pin "1" (uuid 1d33d9db-03e9-4b82-9c0e-a6c939802717))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -4793,7 +4793,7 @@
           (reference "SW11") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW11") (unit 1)
         )
@@ -4828,7 +4828,7 @@
           (reference "SW5") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW5") (unit 1)
         )
@@ -4863,7 +4863,7 @@
           (reference "SW4") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW4") (unit 1)
         )
@@ -4895,7 +4895,7 @@
           (reference "G27") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G28") (unit 1)
         )
@@ -4927,7 +4927,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -4965,7 +4965,7 @@
           (reference "SW26") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "SW26") (unit 1)
         )
@@ -4997,7 +4997,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -5017,7 +5017,7 @@
     (property "Value" "220pF" (at 100.0506 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric_Pad1.05x0.95mm" (at 105.1052 142.24 0)
+    (property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric" (at 105.1052 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 138.43 0)
@@ -5037,7 +5037,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "C?") (unit 1)
         )
@@ -5072,7 +5072,7 @@
           (reference "G8") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407/ac97752b-a16f-44ee-ad7e-0bcdbcea7979"
           (reference "G8") (unit 1)
         )
@@ -5107,7 +5107,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "H?") (unit 1)
         )
@@ -5135,7 +5135,7 @@
     )
     (pin "1" (uuid a7bc918e-e941-4823-91db-0dd6a09241f6))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
@@ -5163,7 +5163,7 @@
     )
     (pin "1" (uuid 4684948d-c228-43db-9a41-2604a9878dcc))
     (instances
-      (project "keyboard_right"
+      (project "keyboard_left"
         (path "/852dabbf-de45-4470-8176-59d37a754407"
           (reference "#PWR?") (unit 1)
         )
