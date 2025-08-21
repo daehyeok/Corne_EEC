@@ -1,0 +1,20 @@
+{
+    "layout": {
+        "hspace": "5mm",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+        "hcount": "0"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.8mm",
+        "spacing": "1mm"
+    },
+    "framing": {
+        "type": "railstb"
+    }
+}

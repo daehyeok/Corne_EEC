@@ -3,21 +3,13 @@ import pcbnew
 import os
 
 def flip(pcb_board, new_board_path=""):
-    layer_dict = {}
-    zero = pcbnew.VECTOR2I(pcbnew.wxPoint(0,0))
-    for i in range(pcbnew.PCBNEW_LAYER_ID_START,
-                   pcbnew.PCBNEW_LAYER_ID_START + pcbnew.PCB_LAYER_ID_COUNT):
-        layer_dict[pcbnew.BOARD_GetStandardLayerName(i)] = i
+    zero = pcbnew.VECTOR2I(0,0)
 
     for fp in pcb_board.GetFootprints():
         prev_position = fp.GetPosition() + zero
         prev_orientation = fp.GetOrientationDegrees()
         flip_left_right = False
         ref = fp.GetReference().strip()
-
-        # components_flip_horizon=["SW3", "SW4", "SW20", "SW21", "SW22", "SW28", "J1"]
-        # if ref in components_flip_horizon:
-        #     flip_left_right = True
             
         fp.Flip(prev_position, flip_left_right)
         fp.Move(prev_position - fp.GetPosition())

@@ -1,5 +1,5 @@
 (footprint "SMT-SO-M1.6-with-ring" (version 20221018) (generator pcbnew)
-  locked (layer "F.Cu")
+  (layer "F.Cu")
   (descr "Mounting Hole 2.1mm, no annular")
   (tags "mounting hole 2.1mm no annular")
   (property "Field4" "")
@@ -20,5 +20,5 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp 75acd3ec-fa4a-4c3f-83fa-6c279896b60f)
   )
-  (pad "1" thru_hole circle locked (at 0 0) (size 2.6 2.6) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp f9df4d95-547e-4777-8161-c06b30aa59a1))
+  (pad "1" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.5) (layers "*.Cu" "*.Mask") (tstamp f9df4d95-547e-4777-8161-c06b30aa59a1))
 )
