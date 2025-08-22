@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Corne EEC - Keyboard Left")
-		(date "2023-07-18")
-		(rev "1.0")
+		(date "2025-08-21")
+		(rev "2.0")
 		(comment 2 "MIT License")
 	)
 	(lib_symbols

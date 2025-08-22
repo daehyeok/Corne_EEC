@@ -287,3 +287,4 @@ poetry.toml
 
 # End of https://www.toptal.com/developers/gitignore/api/emacs,macos,kicad,python
 jlcpcb/
+*.lck
