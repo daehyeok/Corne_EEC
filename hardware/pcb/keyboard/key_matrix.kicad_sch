@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Key Matrix")
-		(date "2023-07-18")
+		(date "2025-08-31")
 		(rev "1.0")
+		(company "https://github.com/daehyeok/Corne_EEC")
 		(comment 2 "MIT License")
 	)
 	(lib_symbols
