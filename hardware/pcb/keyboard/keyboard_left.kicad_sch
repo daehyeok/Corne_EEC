@@ -6837,12 +6837,6 @@
 		(uuid "fe33c67b-5956-4eac-aba5-566fe0de2c15")
 	)
 	(junction
-		(at 153.67 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0587184e-77f5-4c67-adc8-281c4ec84b18")
-	)
-	(junction
 		(at 64.77 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6937,12 +6931,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "958236a6-5967-4a4b-bed2-04b4cae70b6c")
-	)
-	(junction
-		(at 143.51 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2528f60-45f8-46cb-8a54-3ab30aa47b4b")
 	)
 	(junction
 		(at 171.45 25.4)
@@ -7132,16 +7120,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 132.08) (xy 185.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22632460-7de4-4371-8da4-dde0bc55a2a1")
-	)
-	(wire
-		(pts
 			(xy 273.05 26.67) (xy 270.51 26.67)
 		)
 		(stroke
@@ -7159,26 +7137,6 @@
 			(type default)
 		)
 		(uuid "264eaedb-df4b-4a50-bdf9-51a4d7a4259f")
-	)
-	(wire
-		(pts
-			(xy 144.78 38.1) (xy 143.51 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269789c1-15d9-437a-841b-8df53f7dd709")
-	)
-	(wire
-		(pts
-			(xy 143.51 38.1) (xy 143.51 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a861b54-3a2e-45d9-8231-370d50ebdc00")
 	)
 	(wire
 		(pts
@@ -7322,16 +7280,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 137.16) (xy 191.77 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e6a0c7-be2c-4686-8570-01aa03c56241")
-	)
-	(wire
-		(pts
 			(xy 58.42 25.4) (xy 58.42 31.75)
 		)
 		(stroke
@@ -7459,16 +7407,6 @@
 			(type default)
 		)
 		(uuid "5cc7fc10-9b3a-48a1-853d-65aeecbd706a")
-	)
-	(wire
-		(pts
-			(xy 152.4 38.1) (xy 153.67 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cd21e88-f370-45a2-8078-0783af197d90")
 	)
 	(wire
 		(pts
@@ -8149,16 +8087,6 @@
 			(type default)
 		)
 		(uuid "edfee5d8-cceb-4910-8322-00729eee23a4")
-	)
-	(wire
-		(pts
-			(xy 196.85 137.16) (xy 191.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f055fb69-2444-4942-8772-226077db2794")
 	)
 	(wire
 		(pts
@@ -11751,83 +11679,6 @@
 		)
 	)
 	(symbol
-		(lib_id "nrfmicro-rescue:GND")
-		(at 185.42 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36ff2bfb-0926-4404-b130-159e0f8a7150")
-		(property "Reference" "#PWR015"
-			(at 179.07 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.0258 132.207 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65086c3d-9b79-4309-8b9e-1aa2bc4b3fc3")
-		)
-		(instances
-			(project "esp32_hub_right"
-				(path "/5de5818a-c52c-4286-93c9-eb63836c2db5"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-			(project "keyboard_left"
-				(path "/852dabbf-de45-4470-8176-59d37a754407"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-			(project "nrfmicro"
-				(path "/bfc0aadc-38cf-466e-a642-68fdc3138c78"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 191.77 20.32 180)
 		(unit 1)
@@ -13340,6 +13191,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ca0a136-dff6-4cd6-8f9d-719d74f29e69")
+		(property "Reference" "#PWR025"
+			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34b9cf25-5a3d-47c7-9324-2be0396c2c19")
+		)
+		(instances
+			(project "keyboard_left"
+				(path "/852dabbf-de45-4470-8176-59d37a754407"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 110.49 176.53 180)
 		(unit 1)
@@ -13400,6 +13317,73 @@
 			(project "keyboard_left"
 				(path "/852dabbf-de45-4470-8176-59d37a754407"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 191.77 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "822a5c83-5b75-4471-8671-78081c60c79e")
+		(property "Reference" "#PWR015"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 187.96 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a71a190c-9f74-476d-a61d-1c88944b43a8")
+		)
+		(instances
+			(project "keyboard_left"
+				(path "/852dabbf-de45-4470-8176-59d37a754407"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15213,78 +15197,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1704f74-6784-40ed-8553-931849502853")
-		(property "Reference" "#PWR046"
-			(at 137.16 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d790cd4-bec2-4842-a917-8fefe20f720d")
-		)
-		(instances
-			(project "keyboard_left"
-				(path "/852dabbf-de45-4470-8176-59d37a754407"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-			(project "EC60-Rev_1_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 58.42 25.4 0)
 		(unit 1)
@@ -15861,89 +15773,6 @@
 			(project "keyboard_left"
 				(path "/852dabbf-de45-4470-8176-59d37a754407"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 148.59 38.1 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e73c5698-3547-46d1-92f1-941dfd090a1f")
-		(property "Reference" "C1"
-			(at 144.78 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 151.13 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
-			(at 152.4 39.0652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08f06231-8810-4eb8-9e57-04cce7894764")
-		)
-		(pin "2"
-			(uuid "b88ef098-85b5-4896-95e2-ac9c2f8e058e")
-		)
-		(instances
-			(project "keyboard_left"
-				(path "/852dabbf-de45-4470-8176-59d37a754407"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "EC60-Rev_1_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C5")
 					(unit 1)
 				)
 			)
