@@ -1,24 +1,79 @@
-(footprint "SMT-SO-M1.6-with-ring" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Mounting Hole 2.1mm, no annular")
-  (tags "mounting hole 2.1mm no annular")
-  (property "Field4" "")
-  (property "Sheetfile" "shared_etc.kicad_sch")
-  (property "Sheetname" "shared_etc")
-  (property "ki_description" "Mounting Hole with connection")
-  (property "ki_keywords" "mounting hole")
-  (attr exclude_from_pos_files)
-  (fp_text reference "H0" (at 0 -3.2) (layer "B.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    (tstamp b9b80d3d-0359-492b-9be9-f5c53c71e361)
-  )
-  (fp_text value "~" (at 0 3.2) (layer "B.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    (tstamp d58cb16c-6643-44d0-831c-188a060c4fc0)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "B.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    (tstamp 75acd3ec-fa4a-4c3f-83fa-6c279896b60f)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 4.2 4.2) (drill 2.5) (layers "*.Cu" "*.Mask") (tstamp f9df4d95-547e-4777-8161-c06b30aa59a1))
+(footprint "SMT-SO-M1.6-with-ring"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.1mm, no annular")
+	(tags "mounting hole 2.1mm no annular")
+	(property "Reference" "H0"
+		(at 0 -3.2 0)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "b9b80d3d-0359-492b-9be9-f5c53c71e361")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "~"
+		(at 0 3.2 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "d58cb16c-6643-44d0-831c-188a060c4fc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ac6066f-724e-4161-9604-2ea5015138db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c797e26f-c108-488b-92c3-d107ef97f426")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field4" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba996ce2-3e67-461e-a45b-129cfb2441b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.62 1.62)
+		(drill 1.62)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f9df4d95-547e-4777-8161-c06b30aa59a1")
+	)
+	(embedded_fonts no)
 )

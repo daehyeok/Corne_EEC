@@ -1,13 +1,22 @@
 {
     "layout": {
-        "vspace": "5mm",
-        "hbackbone": "5mm",
-        "rows": "2"
+        "cols": "2"
     },
     "tabs": {
-        "type": "none"
+        "type": "fixed",
+        "hwidth": "0",
+        "vcount": "2"
     },
     "cuts": {
-        "type": "vcuts"
+        "type": "mousebites",
+        "spacing": "1mm",
+        "offset": "0.2mm"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "3"
+    },
+    "post": {
+        "millradiusouter": "1mm"
     }
 }

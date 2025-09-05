@@ -1827,7 +1827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ec_parts:SMT-SO-M1.6-with-ring"
+		(property "Footprint" "ec_parts:SMT-SO-M1.6-screwhole_only"
 			(at 36.83 58.42 0)
 			(effects
 				(font
@@ -1978,7 +1978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ec_parts:SMT-SO-M1.6-with-ring"
+		(property "Footprint" "ec_parts:SMT-SO-M1.6-screwhole_only"
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -2626,7 +2626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ec_parts:SMT-SO-M1.6-with-ring"
+		(property "Footprint" "ec_parts:SMT-SO-M1.6-screwhole_only"
 			(at 44.45 58.42 0)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ec_parts:SMT-SO-M1.6-with-ring"
+		(property "Footprint" "ec_parts:SMT-SO-M1.6-screwhole_only"
 			(at 60.96 58.42 0)
 			(effects
 				(font
