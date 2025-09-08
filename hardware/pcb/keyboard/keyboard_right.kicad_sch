@@ -10547,7 +10547,7 @@
 				)
 			)
 		)
-		(property "Value" "24MHz 10pF"
+		(property "Value" "8MHz 10pF"
 			(at 143.51 43.942 90)
 			(effects
 				(font
