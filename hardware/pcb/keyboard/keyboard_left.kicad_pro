@@ -639,7 +639,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber_left",
       "pos_files": "",
       "specctra_dsn": "ergodash_ec.dsn",
       "step": "3dmodels/ECWL compatible mounting points/corneec.step",
