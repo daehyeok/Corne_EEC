@@ -1,3 +1,6 @@
 [submodule "hardware/kicad_asset/wch_lib"]
 	path = hardware/kicad_asset/wch_lib
 	url = https://github.com/Taoyukai/wch_kicad_library
+[submodule "hardware/case/BOSL2"]
+	path = hardware/case/BOSL2
+	url = https://github.com/BelfrySCAD/BOSL2

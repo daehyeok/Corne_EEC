@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cb19f959-cb41-4872-887e-875acf5787d7")
+	(paper "A4")
+	(title_block
+		(title "Key Matrix")
+		(date "2025-08-31")
+		(rev "1.0")
+		(company "https://github.com/daehyeok/Corne_EEC")
+		(comment 2 "MIT License")
+	)
+	(lib_symbols)
+)
