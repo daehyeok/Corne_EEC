@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Corne EEC - Keyboard Right")
-		(date "2025-08-31")
+		(date "2025-09-18")
 		(rev "2.0")
 		(company "https://github.com/daehyeok/Corne_EEC")
 		(comment 2 "MIT License")
@@ -6902,12 +6902,6 @@
 		(uuid "58fb3086-e4b3-48b4-ab96-f6b6c7783cae")
 	)
 	(junction
-		(at 95.25 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c511169-5966-48f9-885c-851fe870a1f3")
-	)
-	(junction
 		(at 82.55 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6962,16 +6956,16 @@
 		(uuid "91778ecc-8531-4e5c-8f82-5f52f102ae52")
 	)
 	(junction
+		(at 72.39 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b5c0183-ea63-4d4b-9a27-bcd2e6c9db18")
+	)
+	(junction
 		(at 179.07 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a38e8603-c5fa-4321-bfe6-75fbe8fefc70")
-	)
-	(junction
-		(at 72.39 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6f77afd-aff2-41be-b783-cf4237062315")
 	)
 	(junction
 		(at 185.42 21.59)
@@ -6990,6 +6984,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c97f661f-aaa7-466e-8a44-86bbf3807739")
+	)
+	(junction
+		(at 95.25 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d423a806-0f29-46ed-a2cc-c03227e54bf3")
 	)
 	(junction
 		(at 52.07 123.19)
@@ -11295,10 +11295,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "1N5819"
+		(property "Value" "BAT60B"
 			(at 68.8975 114.3 0)
 			(effects
 				(font
@@ -11333,7 +11332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "Alternative: 1N5819"
 			(at 68.58 118.11 0)
 			(effects
 				(font
@@ -14533,98 +14532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AP2112K-3.3")
-		(at 95.25 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1879f9a-f62f-4a4b-9151-8effb796536a")
-		(property "Reference" "U4"
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XC6220B331MR-G"
-			(at 95.25 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23-5"
-			(at 95.25 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.torexsemi.com/system/files/series/xc6220.pdf"
-			(at 95.25 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 95.25 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f288ffa8-4e1a-42b8-8229-b74556d9f452")
-		)
-		(pin "2"
-			(uuid "7f848521-8196-4358-8ca6-f9400a3c0865")
-		)
-		(pin "3"
-			(uuid "b744597d-97ba-4ba4-8e52-43cae73e6e22")
-		)
-		(pin "4"
-			(uuid "c513d762-be96-473d-9c70-df92ef172e06")
-		)
-		(pin "5"
-			(uuid "cf108e76-8729-4046-8e9d-4466c59a4c60")
-		)
-		(instances
-			(project "keyboard_right"
-				(path "/852dabbf-de45-4470-8176-59d37a754407"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "nrfmicro"
-				(path "/bfc0aadc-38cf-466e-a642-68fdc3138c78"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 86.36 182.88 180)
 		(unit 1)
@@ -15340,6 +15247,92 @@
 			(project "keyboard_right"
 				(path "/852dabbf-de45-4470-8176-59d37a754407"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 95.25 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b00bea-3453-4c94-92b9-6526ee768fcf")
+		(property "Reference" "U4"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6220B331MR-G"
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23-5"
+			(at 95.25 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.torexsemi.com/system/files/series/xc6220.pdf"
+			(at 95.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "Alternative: AP2112K"
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5956552-e901-49a9-989b-b5ca4bb90162")
+		)
+		(pin "2"
+			(uuid "507e6168-5500-4b1a-8d45-92d89b9ee0d0")
+		)
+		(pin "3"
+			(uuid "8deb6fb3-76d9-4ac1-b815-daa51a2daa2c")
+		)
+		(pin "4"
+			(uuid "67e7b87f-0057-4a3b-ba53-b3980bc26425")
+		)
+		(pin "5"
+			(uuid "1c5eb6ee-5ed6-4e66-9f7f-60b2c5151af6")
+		)
+		(instances
+			(project "keyboard_right"
+				(path "/852dabbf-de45-4470-8176-59d37a754407"
+					(reference "U4")
 					(unit 1)
 				)
 			)

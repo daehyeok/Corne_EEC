@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Corne EEC - Keyboard Left")
-		(date "2025-08-31")
+		(date "2025-09-18")
 		(rev "2.0")
 		(company "https://github.com/daehyeok/Corne_EEC")
 		(comment 2 "MIT License")
@@ -11203,7 +11203,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819"
+		(property "Value" "BAT60B"
 			(at 66.3575 27.94 0)
 			(effects
 				(font
@@ -11238,7 +11238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "Alternative: 1N5819"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -14483,7 +14483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "Alternative: AP2112K"
 			(at 92.71 34.29 0)
 			(effects
 				(font
