@@ -68,12 +68,13 @@
 		)
 	)
 	(attr exclude_from_pos_files)
-	(pad "" np_thru_hole circle
+	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 1.62 1.62)
-		(drill 1.62)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "f9df4d95-547e-4777-8161-c06b30aa59a1")
+		(size 4.2 4.2)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c83ae8c4-93d8-45df-a82f-317f814b0002")
 	)
 	(embedded_fonts no)
 )
