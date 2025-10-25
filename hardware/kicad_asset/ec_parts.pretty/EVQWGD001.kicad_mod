@@ -1,0 +1,173 @@
+(footprint "EVQWGD001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.74 -8.82 0)
+		(layer "F.Fab")
+		(uuid "4517223d-7844-45ec-992f-037a24fabdd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RollerEncoder_Panasonic_EVQWGD001"
+		(at -0.1 8.5 0)
+		(layer "F.Fab")
+		(uuid "4eb108e7-f196-42c0-84e9-8fad28c4b4a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ca8e006-439d-4c87-b264-720296d132aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9708613-39f1-4b87-bcde-74fec0bb3cf9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.4 -6.9)
+		(end 8.4 6.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "75e5eaa4-2177-41cf-8351-8f0919ba81d0")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 7.7 7.1)
+				(mid 7.487868 7.012132)
+				(end 7.4 6.8)
+			)
+			(arc
+				(start 7.4 -6.8)
+				(mid 7.487868 -7.012132)
+				(end 7.7 -7.1)
+			)
+			(arc
+				(start 9.5 -7.1)
+				(mid 9.712132 -7.012132)
+				(end 9.8 -6.8)
+			)
+			(arc
+				(start 9.8 6.8)
+				(mid 9.712132 7.012132)
+				(end 9.5 7.1)
+			)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "f7582440-6a0e-4a06-abb5-2208940cef24")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.55 -4.03 0)
+		(layer "F.SilkS")
+		(uuid "f314abbf-8ef5-4584-be33-380ed3a78b54")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -5.625 3.31)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba9ad94d-0f4b-44ec-bc7d-7e24a6e7a2ab")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.625 5.8)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "99bb338b-08f4-4fda-941f-26b451dd67d0")
+	)
+	(pad "A" thru_hole circle
+		(at -5.625 -4.31)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "291769ec-d491-4d7a-a87b-0b6f652a5582")
+	)
+	(pad "B" thru_hole circle
+		(at -5.625 -1.77)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ea62a33-26ac-4e8d-bf32-b6b1b66d8e3b")
+	)
+	(pad "C" thru_hole circle
+		(at -5.625 0.77)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f2cfc71-ee1b-48ce-84c6-db769185ac52")
+	)
+	(pad "S1" thru_hole circle
+		(at -6.85 -6.7)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eaf18891-474d-4364-88c5-353383a20815")
+	)
+	(pad "S2" thru_hole circle
+		(at -5 -6.7)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d79ea2f-ccc0-41c0-8b36-a39b521cc807")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_LIB}/3D_models/PanasonicEncoder.STEP"
+		(offset
+			(xyz 8.3 -7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

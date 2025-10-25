@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H3_3, H3_2, H3, H4_3, H4_2, H4, H5_3, H5_2, H5, H6_3, H6_2, H6",SMT-SO-M1.6-with-ring,12,~,
+"J4_3, J4_2, J4",CONN6x1_FH34SRJ-6S-0.5SH50_HIR,3,HRS_FH34SRJ-06S-0.5SH(50),
+"R1_3, R1_2, R1, R2_3, R2_2, R2, R3_3, R3_2, R3",0603,9,10k,
+"R4_3, R4_2, R4, R5_3, R5_2, R5, R6_3, R6_2, R6, R7_3, R7_2, R7, R8_3, R8_2, R8, R9_3, R9_2, R9",0603,18,0,
+"SW1_3, SW1_2, SW1, SW2_3, SW2_2, SW2",EVQWGD001,6,RotaryEncoder_Switch,
